@@ -4,56 +4,86 @@
   <title>Archie.exe</title>
   <style>
     body {
-      background-color: #ffe6f0;
-      font-family: Comic Sans MS, cursive;
+      background: linear-gradient(135deg, #ffe6f0, #ffd6eb);
+      font-family: "Comic Sans MS", cursive;
       text-align: center;
       padding: 50px;
     }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+
     h1 {
       font-size: 40px;
     }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: hotpink;
+      margin-top: 30px;
+      font-size: 22px;
+    }
+
     button {
       padding: 10px 20px;
       font-size: 18px;
       background-color: hotpink;
+      color: white;
       border: none;
-      border-radius: 10px;
+      border-radius: 12px;
       cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: deeppink;
+      transform: scale(1.05);
     }
   </style>
 </head>
+
 <body>
 
-  <h1>WARNING ⚠️</h1>
-  <p>You have been diagnosed with Girlfriend Attachment Disorder.</p>
-  <p>Patient Name: Archie 🎀</p>
-  <p>Side Effects: Random kisses, emotional support, chaos.</p>
+  <div class="card">
 
-  <br><br>
-<h3>💊 Treatment Options Available</h3>
-<p>Click below to attempt a cure.</p>
+    <h1>WARNING ⚠️</h1>
+    <p>You have been diagnosed with Girlfriend Attachment Disorder.</p>
+    <p>Patient Name: Archie 🎀</p>
+    <p>Side Effects: Random kisses, emotional support, chaos.</p>
 
-<button onclick="cure()">
-  Click for a cure
-</button>
+    <h3>💊 Treatment Options Available</h3>
+    <p>Click below to attempt a cure.</p>
+
+    <button onclick="cure()">
+      Click for a cure
+    </button>
+
+    <h2>Reasons I Like You:</h2>
+    <p>1. You exist (bare minimum but okay).</p>
+    <p>2. You tolerate my drama.</p>
+    <p>3. You look cute even when you're being annoying.</p>
+    <p>4. Unfortunately, my heart chose you.</p>
+
+    <button onclick="alert('Too late. You are legally mine now. 💖')">
+      Click if you love me
+    </button>
+
+  </div>
 
 <script>
 function cure() {
   alert("Error 404: Cure not found.\n\nCondition irreversible.\nRecommended action: Kiss girlfriend immediately 😚🌷");
 }
 </script>
-
-  
-  <h2>Reasons I Like You:</h2>
-  <p>1. You exist (bare minimum but okay).</p>
-  <p>2. You tolerate my drama.</p>
-  <p>3. You look cute even when you're being annoying.</p>
-  <p>4. Unfortunately, my heart chose you.</p>
-
-  <button onclick="alert('Too late. You are legally mine now. 💖')">
-    Click if you love me
-  </button>
-  <br><br>
 
 </body>
 </html>
